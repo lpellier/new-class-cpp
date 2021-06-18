@@ -27,7 +27,7 @@ To run the script, type:
 newClass <nameOfClass> <numberOfAttributes>
 ```
 If you want a class without any attributes, just type in 0 for numberOfAttributes.
-The script will then ask for the types and names of the attributes and creates the class files with the appropriate accessors, mutators and so on.
+The script will then ask for the types and names of the attributes and create the class files with the appropriate accessors, mutators and so on.
 
 
 ## Example:
