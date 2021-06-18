@@ -31,13 +31,15 @@ The script will then ask for the types and names of the attributes and creates t
 
 
 ## Example:
-<img width="1031" alt="Screenshot 2021-06-18 at 17 23 46" src="https://user-images.githubusercontent.com/57676136/122583820-f1a94080-d059-11eb-8e41-73c5891053f5.png">
+<img width="894" alt="Screenshot 2021-06-18 at 17 23 46" src="https://user-images.githubusercontent.com/57676136/122583820-f1a94080-d059-11eb-8e41-73c5891053f5.png">
 
 ## Example.cpp
-https://user-images.githubusercontent.com/57676136/122583619-beff4800-d059-11eb-989c-57eb31b5ed84.mov
+<img width="894" alt="Screenshot 2021-06-18 at 17 32 18" src="https://user-images.githubusercontent.com/57676136/122584891-2c5fa880-d05b-11eb-991c-4378ec477f68.png">
+<img width="894" alt="Screenshot 2021-06-18 at 17 32 53" src="https://user-images.githubusercontent.com/57676136/122584956-3e414b80-d05b-11eb-9122-62d4b9103fa7.png">
+
 
 ## Example.hpp
-<img width="1056" alt="Screenshot 2021-06-18 at 17 18 46" src="https://user-images.githubusercontent.com/57676136/122583663-cde5fa80-d059-11eb-8ec4-6c6655a3e232.png">
+<img width="894" alt="Screenshot 2021-06-18 at 17 18 46" src="https://user-images.githubusercontent.com/57676136/122583663-cde5fa80-d059-11eb-8ec4-6c6655a3e232.png">
 
 # main.cpp
-<img width="1056" alt="Screenshot 2021-06-18 at 17 18 56" src="https://user-images.githubusercontent.com/57676136/122583676-cfafbe00-d059-11eb-9551-a5f07b00047e.png">
+<img width="894" alt="Screenshot 2021-06-18 at 17 18 56" src="https://user-images.githubusercontent.com/57676136/122583676-cfafbe00-d059-11eb-9551-a5f07b00047e.png">
