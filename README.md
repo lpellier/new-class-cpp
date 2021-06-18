@@ -41,5 +41,5 @@ The script will then ask for the types and names of the attributes and creates t
 ## Example.hpp
 <img width="894" alt="Screenshot 2021-06-18 at 17 18 46" src="https://user-images.githubusercontent.com/57676136/122583663-cde5fa80-d059-11eb-8ec4-6c6655a3e232.png">
 
-# main.cpp
+## main.cpp
 <img width="894" alt="Screenshot 2021-06-18 at 17 18 56" src="https://user-images.githubusercontent.com/57676136/122583676-cfafbe00-d059-11eb-9551-a5f07b00047e.png">
