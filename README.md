@@ -6,7 +6,7 @@ Script that makes the process of creating classes easier and faster
 
 ```bash
 git clone https://github.com/lpellier/new-class-cpp.git ~/.new-class-cpp
-echo "alias newClass=\"bash ~/.new-class-cpp/newClass.sh\"" >> ~/.zshrc
+echo "alias newClass=\"~/.new-class-cpp/newClass\"" >> ~/.zshrc
 source ~/.zshrc
 ```
 
@@ -20,6 +20,7 @@ source ~/.zshrc
   * Operator= assignment
 * Accessors (getters) already implemented if you want attributes
 * Mutators (setters) already implemented if you want attributes
+* Inheritance handled (for exactly one base class)
 
 ## Usage
 To run the script, type:
