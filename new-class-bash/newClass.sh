@@ -119,7 +119,7 @@ printf "//   | |   / _  |  _ \ / _ \|  _ \| |/ __/ _  | | | |_ | | | |  _ \ / __
 printf "//   | |__| (_| | | | | (_) | | | | | (_| (_| | | |  _|| |_| | | | | (__| |_| | (_) | | | \__ \ //\n" >> ${className}.cpp
 printf "//    \____\__,_|_| |_|\___/|_| |_|_|\___\__,_|_| |_|   \__,_|_| |_|\___|\__|_|\___/|_| |_|___/ //\n\n" >> ${className}.cpp
 
-printf "${className}::${className}(void) {\n	std::cout << \"Default constructor called\" << std::endl;\n}\n\n" >> ${className}.cpp
+printf "${className}::${className}(void) {\n	// std::cout << \"Default constructor called\" << std::endl;\n}\n\n" >> ${className}.cpp
 if [ ${attributesNbr} -gt 0 ]
 then
 	printf "${className}::${className}(" >> ${className}.cpp
@@ -140,10 +140,10 @@ then
 			printf ", " >> ${className}.cpp
 		fi
 	done
-	printf " {\n	std::cout << \"Parameter constructor called\" << std::endl;\n}\n\n" >> ${className}.cpp
+	printf " {\n	// std::cout << \"Parameter constructor called\" << std::endl;\n}\n\n" >> ${className}.cpp
 fi
-printf "${className}::~${className}(void) {\n	std::cout << \"Destructor called\" << std::endl;\n}\n\n" >> ${className}.cpp
-printf "${className}::${className}(${className} const & src) {\n	std::cout << \"Copy constructor called\" << std::endl;\n" >> ${className}.cpp
+printf "${className}::~${className}(void) {\n	// std::cout << \"Destructor called\" << std::endl;\n}\n\n" >> ${className}.cpp
+printf "${className}::${className}(${className} const & src) {\n	// std::cout << \"Copy constructor called\" << std::endl;\n" >> ${className}.cpp
 if [ ${attributesNbr} -gt 0 ]
 then
 	for i in $(seq 0 $(expr ${attributesNbr} - 1))
@@ -153,7 +153,7 @@ then
 	done
 fi
 printf "}\n\n" >> ${className}.cpp
-printf "${className} & ${className}::operator=(${className} const & src) {\n	std::cout << \"Assignment operator called\" << std::endl;\n" >> ${className}.cpp
+printf "${className} & ${className}::operator=(${className} const & src) {\n	// std::cout << \"Assignment operator called\" << std::endl;\n" >> ${className}.cpp
 if [ ${attributesNbr} -gt 0 ]
 then
 	for i in $(seq 0 $(expr ${attributesNbr} - 1))
